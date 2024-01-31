@@ -1,0 +1,39 @@
+.navbar .active {
+  border-bottom: 2px solid #2e266f;
+}
+
+.nav-link {
+  color: #2e266f !important;
+  font-weight: 500;
+}
+
+.text-recipe {
+  color: #000 !important;
+  font-weight: 900;
+}
+
+.text-logout {
+  color: #000 !important;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.nav-shadow {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+
+@media (min-width: 768px) {
+  #navbarNav {
+    height: 85px;
+  }
+
+  .line-photo::after {
+    content: '';
+    width: 5px;
+    height: 78px;
+    background-color: #efc81a;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+  }
+}
