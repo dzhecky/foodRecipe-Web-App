@@ -68,7 +68,7 @@
   /* Menu Recipes Start */
   .card-menu-search {
     margin-left: 75px !important;
-    max-width: 750px;
+    max-width: 800px;
   }
 
   .card-title {
@@ -76,7 +76,7 @@
   }
 
   .card-text {
-    max-width: 200px;
+    max-width: 500px;
     font-size: 17px;
   }
   .status span {

@@ -22,7 +22,7 @@ export default function Login() {
   const dispatch = useDispatch();
   const authLogin = useSelector((state) => state.authLogin);
 
-  if (authLogin.isLoading) {
+  if (authLogin?.isLoading) {
     Swal.fire({
       title: 'Login...',
       html: 'Please wait...',
@@ -64,16 +64,15 @@ export default function Login() {
 
   return (
     <div>
-      <div className='container-fluid d-flex flex-column justify-content-center login ff-poppins'>
-        <header className='container auth-container d-flex flex-column align-items-center'>
-          <img src={logoApp} alt='icon-app' className='mb-2' height='100' width='100' />
-          <p className='fw-medium color-primary text-center'>Food Recipe</p>
-          <h3 className='color-primary mt-4 fw-semibold text-center'>Welcome!</h3>
-          <p className='text-new-account text-center'>Log in into your existing account</p>
-          <span className='line'></span>
+      <div className='container d-flex login ff-poppins mt-4'>
+        <header className='container d-none d-lg-flex flex-column align-items-center auth-container-2'>
+          <img src={logoApp} alt='icon-app' className='image' height='150' width='150' />
+          <p className='color-white fw-bold mt-3'>Food Recipe</p>
         </header>
         <div className='container auth-container'>
-          <form onSubmit={(e) => onSubmit(e)}>
+          <h3 className='color-primary mt-4 fw-semibold text-center'>Welcome!</h3>
+          <p className='text-new-account text-center mb-5'>Log in into your existing account</p>
+          <form onSubmit={(e) => onSubmit(e)} className=''>
             <div className='mb-3'>
               <label className='form-label text-label'>E-mail</label>
               <input type='email' className='form-control p-3 text-input' id='email' placeholder='E-mail' onChange={(e) => onChangeInput(e.target.value, 'email')} />

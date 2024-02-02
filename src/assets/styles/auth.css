@@ -6,9 +6,9 @@
   max-height: 100vh;
 }
 
-.auth-container img {
-  margin-top: 225px;
-}
+/* .auth-container-2 img {
+  
+} */
 
 .login header img {
   margin-top: 135px;
@@ -25,8 +25,21 @@ header .line {
   margin: 30px 0;
 }
 
+.auth-container-2 {
+  height: 600px;
+  max-width: 450px;
+  margin: auto;
+  background: url('../../assets/image/loginpic.png') rgba(250, 246, 39, 0.486);
+  background-blend-mode: overlay;
+}
+
+.auth-container-2 .image {
+  margin-top: 200px;
+}
+
 .auth-container {
-  max-width: 426px;
+  /* max-width: 426px; */
+  max-width: 450px;
 }
 
 .text-new-account {
@@ -61,7 +74,7 @@ input[type='checkbox']:checked {
   border: none;
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .auth-container img {
     margin-top: 450px;
   }
@@ -69,4 +82,4 @@ input[type='checkbox']:checked {
   .login header img {
     margin-top: 320px;
   }
-}
+} */

@@ -13,8 +13,8 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import '../../assets/styles/utility.css';
 import '../../assets/styles/detailRecipe.css';
-import iconBookmark from '../../../public/bookmark.svg';
-import iconLike from '../../../public/like.svg';
+import iconBookmark from '../../../src/bookmark.svg';
+import iconLike from '../../../src/like.svg';
 
 export default function DetailRecipe() {
   const { id } = useParams();

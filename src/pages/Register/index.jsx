@@ -64,15 +64,14 @@ export default function Register() {
   };
   return (
     <div>
-      <div className='container-fluid d-flex flex-column justify-content-center register ff-poppins'>
-        <header className='container auth-container d-flex flex-column align-items-center' id='header'>
-          <img src={logoApp} alt='icon-app' className='mb-2' height='100' width='100' />
-          <p className='fw-medium color-primary text-center'>Food Recipe</p>
-          <h3 className='color-primary mt-4 fw-semibold text-center'>{`Let's Get Started`}</h3>
-          <p className='text-new-account text-center'>Create new account to access all features</p>
-          <span className='line'></span>
+      <div className='container d-flex register ff-poppins mt-4'>
+      <header className='container d-none d-lg-flex flex-column align-items-center auth-container-2'>
+          <img src={logoApp} alt='icon-app' className='image' height='150' width='150' />
+          <p className='color-white fw-bold mt-3'>Food Recipe</p>
         </header>
         <div className='container auth-container'>
+          <h3 className='color-primary mt-4 fw-semibold text-center'>{`Let's Get Started`}</h3>
+          <p className='text-new-account text-center'>Create new account to access all features</p>
           <form onSubmit={(e) => onSubmit(e)}>
             <div className='mb-3'>
               <label className='form-label text-label'>Name</label>

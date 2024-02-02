@@ -98,9 +98,9 @@ export default function EditRecipe() {
       <Navbar />
       <section className='container edit-recipe'>
         <form onSubmit={handleUpdate}>
-          <div className='d-flex edit-photo align-items-center justify-content-center mb-4 ps-0'>
+          <div className='d-flex edit-photo align-items-center justify-content-center mb-4 mx-auto'>
             {form.photo && <img src={form?.photo} alt='image-recipe' className='rounded' />}
-            <button className='btn btn-change-photo fw-medium'>
+            <button className='btn btn-change-photo'>
               Change Photo
               <input type='file' className='background-primary' width='100%' height='100%' onChange={onChangePhoto} />
             </button>

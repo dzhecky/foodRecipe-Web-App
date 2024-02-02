@@ -1,7 +1,7 @@
 import axios from 'axios';
 const base_url = import.meta.env.VITE_BASE_URL;
 
-let recipeUrl = '/recipe?limit=9';
+let recipeUrl = '/recipe?limit=6';
 let latestRecipeUrl = `/recipe/latest`;
 let suggestionsRecipeUrl = `/recipe/suggestion`;
 

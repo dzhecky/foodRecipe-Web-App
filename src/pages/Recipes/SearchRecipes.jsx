@@ -131,14 +131,14 @@ export default function SearchRecipes() {
                     return (
                       <div className='card mb-3 mt-5 card-menu-search border-0 mx-3' key={items.id_recipe}>
                         <a className='text-decoration-none' onClick={() => toDetailRecipe(items.id_recipe)}>
-                          <div className='row g-0'>
+                          <div className='row g-0 d-flex card-set'>
                             <div className='col-md-6'>
                               <img src={items.photo} className='img-fluid rounded w-100 h-100 object-fit-cover' alt='img-recipe' />
                             </div>
                             <div className='container col-md-6 p-0'>
-                              <div className='ms-md-4 card-body ps-1 pt-md-0 d-flex flex-column justify-content-between h-100'>
+                              <div className='ms-md-4 card-body ps-1 pt-md-0 card-control'>
                                 <h3 className='card-title mb-4 color-grey fw-medium'>{items.title}</h3>
-                                <p className='card-text fw-medium mb-3 color-grey'>
+                                <p className='card-text fw-normal mb-3 color-grey'>
                                   <span className='fw-semibold'>Ingredients: </span> <br />
                                   {items.ingredients.join(', ')}
                                 </p>
