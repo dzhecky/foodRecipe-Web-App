@@ -192,9 +192,9 @@ export default function SearchRecipes() {
                   pageClassName={'page-item'}
                   pageLinkClassName={'page-link'}
                   previousClassName={'page-item'}
-                  previousLinkClassName={'page-link background-primary text-white'}
+                  previousLinkClassName={'page-link background-warning text-white'}
                   nextClassName={'page-item'}
-                  nextLinkClassName={'page-link background-primary text-white'}
+                  nextLinkClassName={'page-link background-warning text-white'}
                   breakClassName={'page-item'}
                   breakLinkClassName={'page-link'}
                   activeClassName={'active'}
