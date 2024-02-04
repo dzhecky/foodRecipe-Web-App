@@ -312,6 +312,7 @@ export default function Home() {
                 breakClassName={'page-item'}
                 breakLinkClassName={'page-link'}
                 activeClassName={'active'}
+                activeLinkClassName={'bg-secondary'}
               />
             </div>
           </div>
@@ -394,6 +395,7 @@ export default function Home() {
                 breakClassName={'page-item'}
                 breakLinkClassName={'page-link'}
                 activeClassName={'active'}
+                activeLinkClassName={'bg-secondary'}
               />
             </div>
           </div>
@@ -476,6 +478,7 @@ export default function Home() {
                 breakClassName={'page-item'}
                 breakLinkClassName={'page-link'}
                 activeClassName={'active'}
+                activeLinkClassName={'bg-secondary'}
               />
             </div>
           </div>
